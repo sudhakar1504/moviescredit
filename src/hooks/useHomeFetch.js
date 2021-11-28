@@ -30,7 +30,7 @@ export const useHomeFetch = () => {
       }));
       setBannerdata(movies);
     } catch (error) {
-      setError(true);
+      setError(await true);
     }
     setLoading(false);
   };
