@@ -12,7 +12,7 @@
     width: 160px !important;
     height: 100% !important;
     margin: 0 10px !important;
-    flex: 1 !important;
+    display: none !important;
   }
   .image__Poster {
     width: 160px !important;
@@ -42,7 +42,7 @@
       width: 130px !important;
       height: 100% !important;
       margin: 0 10px !important;
-      flex: 1 !important;
+      display: none !important;
     }
     .image__Poster {
       width: 130px !important;
@@ -81,7 +81,7 @@
       width: 115px !important;
       height: 100% !important;
       margin: 0 7px !important;
-      flex: 1 !important;
+      display: none !important;
     }
     .image__Poster {
       width: 115px !important;
@@ -120,7 +120,7 @@
       width: 100px !important;
       height: 100% !important;
       margin: 0 7px !important;
-      flex: 1 !important;
+      display: none !important;
     }
     .image__Poster {
       width: 100px !important;
