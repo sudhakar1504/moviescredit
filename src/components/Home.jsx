@@ -8,7 +8,7 @@ import NotFound from "./notFound/NotFound";
 import BannerskeletonLoading from "./skeletonsLoading/bannerskeletons/bannerskeletons";
 
 const Home = ({ search, searchmovies, searchError ,setsearch}) => {
-  const { state, genre, value, error, bannerdata } = useHomeFetch();
+  const { state, genre, value, error, bannerdata,toprated ,latest ,lovemovies,alpha,wo} = useHomeFetch();
 
   if (error) return <div><NotFound title="\__CONNECTION_LOST__/" setsearch={setsearch}/></div>;
 
@@ -28,7 +28,12 @@ const Home = ({ search, searchmovies, searchError ,setsearch}) => {
             />
           ) : <BannerskeletonLoading />}
 
-          <List movielist={state.results} title="Popular movies" />
+          <List movielist={state.results} title="Popular Movies" />
+          <List movielist={toprated.results} title="Top Rated" />
+          <List movielist={latest.results} title="Latest" />
+          <List movielist={lovemovies.results} title="Romance" />
+          <List movielist={alpha.results} title="Upcoming movies" />
+          <List movielist={wo.results} title="Crime movies" />
         </div>
       )}
     </div>
