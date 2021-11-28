@@ -312,8 +312,8 @@ export const ImageWrapper =styled.div`
 
   @media(max-width:400px){
     width: 100%;
-  height: 30vh;
-  min-height: 200px;
+  height: 35vh;
+  min-height: 300px;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.3) 30%,
@@ -344,10 +344,10 @@ export const ImageWrapper =styled.div`
   }
   .poster__container{
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 5%;
-  width: 140px;
-  height: 170px;
+  width: 150px;
+  height: 200px;
   box-shadow : 2px 2px 10px black;
   }
   .poster__container img {
@@ -367,7 +367,7 @@ export const ImageWrapper =styled.div`
   @media(max-width:300px){
     width: 100%;
   height: 30vh;
-  min-height: 200px;
+  min-height: 250px;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.3) 30%,
@@ -400,8 +400,8 @@ export const ImageWrapper =styled.div`
   position: absolute;
   top: 35%;
   left: 5%;
-  width: 120px;
-  height: 150px;
+  width: 130px;
+  height: 180px;
   box-shadow : 2px 2px 10px black;
   }
   .poster__container img {
