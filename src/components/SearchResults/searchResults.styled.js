@@ -85,7 +85,7 @@ export const Wrapper = styled.div`
   .movie__card__container {
     user-select: none;
     cursor: pointer;
-    margin: 10px 0 10px 5px;
+    margin: 10px 0 10px 10px;
 
   }
 
