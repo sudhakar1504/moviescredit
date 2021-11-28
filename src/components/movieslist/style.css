@@ -12,7 +12,9 @@
     width: 160px !important;
     height: 100% !important;
     margin: 0 10px !important;
-    display: none !important;
+    flex: 0 0 0;
+    position: static;
+
   }
   .image__Poster {
     width: 160px !important;
@@ -21,6 +23,7 @@
     background-size: cover !important;
     object-fit: contain !important;
     object-position: center !important;
+    color: rgb(41, 116, 66);
   }
 }
 
@@ -42,7 +45,8 @@
       width: 130px !important;
       height: 100% !important;
       margin: 0 10px !important;
-      display: none !important;
+      flex: 0 0 0;
+    position: static;
     }
     .image__Poster {
       width: 130px !important;
@@ -81,7 +85,8 @@
       width: 115px !important;
       height: 100% !important;
       margin: 0 7px !important;
-      display: none !important;
+      flex: 0 0 0;
+    position: static;
     }
     .image__Poster {
       width: 115px !important;
@@ -120,7 +125,8 @@
       width: 100px !important;
       height: 100% !important;
       margin: 0 7px !important;
-      display: none !important;
+      flex: 0 0 0;
+    position: static;
     }
     .image__Poster {
       width: 100px !important;

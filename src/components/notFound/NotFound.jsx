@@ -6,7 +6,7 @@ const NotFound = ({title,setsearch}) => {
     return (
         <Wrapper>
             <h3>Refresh the page..</h3>
-            <h2>{title}</h2>
+            <h2>\__{title}__/</h2>
             <Link to='/'>
                 <button onClick={() => setsearch('')}>Go Back</button>
             </Link>
