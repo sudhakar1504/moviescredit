@@ -8,13 +8,12 @@
     height: 100% !important;
     margin: 0 10px !important;
   }
-  .react-multi-carousel-item--active{
+  .react-multi-carousel-item--active {
     width: 160px !important;
     height: 100% !important;
     margin: 0 10px !important;
-    flex: 0 0 0;
-    position: static;
-
+    flex: 0 0 0 !important;
+    position: static !important;
   }
   .image__Poster {
     width: 160px !important;
@@ -28,122 +27,122 @@
 }
 
 @media (max-width: 650px) {
-    .wrapper{
-        padding: 5px 5px !important;
-    }
-    .wrapper h2{
-        margin: 10px 0 !important;
-        font-size: 1rem !important;
-    }
-   
-    .react-multi-carousel-item {
-      width: 130px !important;
-      height: 100% !important;
-      margin: 0 10px !important;
-    }
-    .react-multi-carousel-item--active{
-      width: 130px !important;
-      height: 100% !important;
-      margin: 0 10px !important;
-      flex: 0 0 0;
-    position: static;
-    }
-    .image__Poster {
-      width: 130px !important;
-      height: 100% !important;
-      min-height: 120px !important;
-      background-size: cover !important;
-      object-fit: contain !important;
-      object-position: center !important;
-    }
-    .movie__title__card{
-      font-size: 0.7rem !important;
-      width: 130px !important
-    }
-    .FaStar{
-      font-size: 0.6rem !important;
-    }
-    .vote__rate{
-      font-size: 0.7rem !important;
-    }
+  .wrapper {
+    padding: 5px 5px !important;
+  }
+  .wrapper h2 {
+    margin: 10px 0 !important;
+    font-size: 1rem !important;
+  }
+
+  .react-multi-carousel-item {
+    width: 130px !important;
+    height: 100% !important;
+    margin: 0 10px !important;
+  }
+  .react-multi-carousel-item--active {
+    width: 130px !important;
+    height: 100% !important;
+    margin: 0 10px !important;
+    flex: 0 0 0 !important;
+    position: static !important;
+  }
+  .image__Poster {
+    width: 130px !important;
+    height: 100% !important;
+    min-height: 120px !important;
+    background-size: cover !important;
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+  .movie__title__card {
+    font-size: 0.7rem !important;
+    width: 130px !important;
+  }
+  .FaStar {
+    font-size: 0.6rem !important;
+  }
+  .vote__rate {
+    font-size: 0.7rem !important;
+  }
 }
 
 @media (max-width: 450px) {
-    .wrapper{
-        padding: 5px 5px !important;
-    }
-    .wrapper h2{
-        margin: 10px 5px !important;
-        font-size: 1rem !important;
-    }
-    .react-multi-carousel-item {
-      width: 115px !important;
-      height: 100% !important;
-      margin: 0 7px !important;
-    }
-    .react-multi-carousel-item--active{
-      width: 115px !important;
-      height: 100% !important;
-      margin: 0 7px !important;
-      flex: 0 0 0;
-    position: static;
-    }
-    .image__Poster {
-      width: 115px !important;
-      height: 100% !important;
-      min-height: 120px !important;
-      background-size: cover !important;
-      object-fit: contain !important;
-      object-position: center !important;
-    }
-    .movie__title__card{
-      font-size: 0.7rem !important;
-      width: 115px !important
-    }
-    .FaStar{
-      font-size: 0.6rem !important;
-    }
-    .vote__rate{
-      font-size: 0.7rem !important;
-    }
+  .wrapper {
+    padding: 5px 5px !important;
+  }
+  .wrapper h2 {
+    margin: 10px 5px !important;
+    font-size: 1rem !important;
+  }
+  .react-multi-carousel-item {
+    width: 115px !important;
+    height: 100% !important;
+    margin: 0 7px !important;
+  }
+  .react-multi-carousel-item--active {
+    width: 115px !important;
+    height: 100% !important;
+    margin: 0 7px !important;
+    flex: 0 0 0 !important;
+    position: static !important;
+  }
+  .image__Poster {
+    width: 115px !important;
+    height: 100% !important;
+    min-height: 120px !important;
+    background-size: cover !important;
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+  .movie__title__card {
+    font-size: 0.7rem !important;
+    width: 115px !important;
+  }
+  .FaStar {
+    font-size: 0.6rem !important;
+  }
+  .vote__rate {
+    font-size: 0.7rem !important;
+  }
 }
 
 @media (max-width: 350px) {
-    .wrapper{
-        padding: 5px 5px !important;
-    }
-    .wrapper h2{
-        margin: 7px 5px !important;
-        font-size: 0.9rem !important;
-    }
-    .react-multi-carousel-item {
-      width: 100px !important;
-      height: 100% !important;
-      margin: 0 7px !important;
-    }
-    .react-multi-carousel-item--active{
-      width: 100px !important;
-      height: 100% !important;
-      margin: 0 7px !important;
-      flex: 0 0 0;
-    position: static;
-    }
-    .image__Poster {
-      width: 100px !important;
-      height: 100% !important;
-      min-height: 100px !important;
-      background-size: cover !important;
-      object-fit: contain !important;
-      object-position: center !important;
-    }
-    .movie__title__card{
-      font-size: 0.6rem !important;
-      width: 100px !important
-    }
-    .FaStar{
-      font-size: 0.6rem !important;
-    }
-    .vote__rate{
-      font-size: 0.7rem !important;
-    }
+  .wrapper {
+    padding: 5px 5px !important;
+  }
+  .wrapper h2 {
+    margin: 7px 5px !important;
+    font-size: 0.9rem !important;
+  }
+  .react-multi-carousel-item {
+    width: 100px !important;
+    height: 100% !important;
+    margin: 0 7px !important;
+  }
+  .react-multi-carousel-item--active {
+    width: 100px !important;
+    height: 100% !important;
+    margin: 0 7px !important;
+    flex: 0 0 0 !important;
+    position: static !important;
+  }
+  .image__Poster {
+    width: 100px !important;
+    height: 100% !important;
+    min-height: 100px !important;
+    background-size: cover !important;
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+  .movie__title__card {
+    font-size: 0.6rem !important;
+    width: 100px !important;
+  }
+  .FaStar {
+    font-size: 0.6rem !important;
+  }
+  .vote__rate {
+    font-size: 0.7rem !important;
+  }
 }

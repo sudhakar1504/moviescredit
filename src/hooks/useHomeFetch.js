@@ -24,6 +24,7 @@ export const useHomeFetch = () => {
   const [value, setValue] = useState("");
   const [genre, setGenre] = useState([]);
   const fetchMovies = async (page) => {
+  
     try {
       setError(false);
       setLoading(true);
