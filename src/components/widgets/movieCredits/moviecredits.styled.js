@@ -335,8 +335,8 @@ export const ImageWrapper =styled.div`
     height: 100%;
   }
   .left_arrow {
-    font-size: 23px;
-    margin-left: 10px;
+    font-size: 26px;
+    margin-left: 20px;
     display: block;
     border-radius :50%;
     border: 1px #ccc solid;
@@ -344,10 +344,10 @@ export const ImageWrapper =styled.div`
   }
   .poster__container{
   position: absolute;
-  top: 30%;
-  left: 5%;
-  width: 150px;
-  height: 200px;
+  top: 40%;
+  left: 10%;
+  width: 170px;
+  height: 220px;
   box-shadow : 2px 2px 10px black;
   }
   .poster__container img {
@@ -389,8 +389,8 @@ export const ImageWrapper =styled.div`
     height: 100%;
   }
   .left_arrow {
-    font-size: 23px;
-    margin-left: 10px;
+    font-size: 26px;
+    margin-left: 20px;
     display: block;
     border-radius :50%;
     border: 1px #ccc solid;
@@ -398,10 +398,10 @@ export const ImageWrapper =styled.div`
   }
   .poster__container{
   position: absolute;
-  top: 35%;
-  left: 5%;
-  width: 130px;
-  height: 180px;
+  top: 38%;
+  left: 10%;
+  width: 150px;
+  height: 200px;
   box-shadow : 2px 2px 10px black;
   }
   .poster__container img {
@@ -412,7 +412,7 @@ export const ImageWrapper =styled.div`
   .movie__title {
       margin-top: 5px;
       font-weight: 600;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       margin-left: 20px;
     }
   }

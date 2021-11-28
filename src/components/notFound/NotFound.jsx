@@ -5,6 +5,7 @@ import { Link} from 'react-router-dom';
 const NotFound = ({title,setsearch}) => {
     return (
         <Wrapper>
+            <h3>Refresh the page..</h3>
             <h2>{title}</h2>
             <Link to='/'>
                 <button onClick={() => setsearch('')}>Go Back</button>

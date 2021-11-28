@@ -38,19 +38,19 @@ export const Wrapper = styled.div`
   @media (max-width: 400px) {
     color: #ffffff;
     text-align: center;
-    width: 60px;
-    margin: 5px;
+    width: 80px;
+    margin: 6px;
 
     img {
       border-radius: 5px;
-      width: 40px;
+      width: 50px;
       height: auto;
     }
     .name {
-      font-size: 9px;
+      font-size: 11px;
     }
     .job {
-      font-size: 8px;
+      font-size: 10px;
       opacity: 0.7;
     }
   }
