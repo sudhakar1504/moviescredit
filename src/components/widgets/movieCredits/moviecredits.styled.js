@@ -344,10 +344,10 @@ export const ImageWrapper =styled.div`
   }
   .poster__container{
   position: absolute;
-  top: 40%;
+  top: 39%;
   left: 10%;
   width: 170px;
-  height: 220px;
+  height: 230px;
   box-shadow : 2px 2px 10px black;
   }
   .poster__container img {
@@ -401,7 +401,7 @@ export const ImageWrapper =styled.div`
   top: 38%;
   left: 10%;
   width: 150px;
-  height: 200px;
+  height: 210px;
   box-shadow : 2px 2px 10px black;
   }
   .poster__container img {
